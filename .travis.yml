@@ -5,7 +5,8 @@ notifications:
   email: false
 deploy:
   provider: heroku
-  app: heroku-badge
-  api_key:
-    secure: nQeCqoI5HTgXxxiZIg7idjjxFlBQlF+5Tus/vVSFcXoHjmv1oorei9Oac5UA1/eVq3tcdgWzCTaABBMBVUqVDy0y8cNESQEX5L3ZneVcJsqUNTt7mbmv3oUGmOYJCauJLag0irjiIYaCReA3xU2Mf7vxnMCfBa1L0eUSk6N4maA=
+  app: heroku-badge2
+  api-key: $HEROKU_API_KEY
+  on:
+    all_branches: true
 before_deploy: if [[ -a .git/shallow ]]; then git fetch --unshallow; fi
