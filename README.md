@@ -2,28 +2,28 @@ heroku-deployment-badges
 ==================
 [![Build Status](https://travis-ci.org/M-Razavi/heroku-badge.svg?branch=master)](https://travis-ci.org/M-Razavi/heroku-badge)
 [![Dependencies](https://david-dm.org/M-Razavi/heroku-badge.svg)](https://david-dm.org/M-Razavi/heroku-badge)
-[![Heroku](https://heroku-badge2.herokuapp.com/?app=heroku-badge&style=flat)](https://heroku-badge2.herokuapp.com/projects.html)
+[![Heroku](https://heroku-badge2.herokuapp.com/?app=heroku-badge2&style=flat)](https://heroku-badge2.herokuapp.com/projects.html)
 
 ## Usage
 
 Create an `img` with src `https://heroku-badge2.herokuapp.com/?app={app-name}`. E.g.,
 
 HTML:
-    <img src="https://heroku-badge2.herokuapp.com/?app=heroku-badge" />
+    <img src="https://heroku-badge2.herokuapp.com/?app=heroku-badge2" />
     
 Markdown:
 
-    [![Heroku](https://heroku-badge2.herokuapp.com/?app=heroku-badge)]
+    [![Heroku](https://heroku-badge2.herokuapp.com/?app=heroku-badge2)]
 
 
 If the heroku app has no index.html than use the root query parameter to specify the url to check if heroku response with http status 200.
 
 HTML:
-    <img src="http://heroku-badge2.herokuapp.com/?app=heroku-badge&root=projects.html" />
+    <img src="http://heroku-badge2.herokuapp.com/?app=heroku-badge2&root=projects.html" />
 
 Markdown:
 
-    [![Heroku](http://heroku-badge2.herokuapp.com/?app=heroku-badge&root=projects.html)]
+    [![Heroku](http://heroku-badge2.herokuapp.com/?app=heroku-badge2&root=projects.html)]
 
 Failed Example
 
